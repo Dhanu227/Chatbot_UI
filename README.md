@@ -30,23 +30,7 @@ This is an AI-powered chatbot web app inspired by ChatGPT. It allows users to re
 
 ## 📁 Project Structure
 
-CHATBOT_UI/
-├── api/                    # FastAPI app + static frontend
-│   ├── app.py
-│   └── static/
-│       ├── login.html
-│       ├── chat.html
-│       └── script.js
-├── chatbot/                # Core logic: DB, LLM, sessions
-│   ├── db.py
-│   ├── llm.py
-│   ├── session.py
-│   └── ...
-├── .env                    # 🔐 MySQL credentials (NOT committed)
-├── .gitignore
-├── main.py                 # CLI version (optional)
-├── requirements.txt
-└── README.md
+<pre lang="markdown"> ## 📁 Project Structure ``` CHATBOT_UI/ ├── api/ # FastAPI app + static frontend │ ├── app.py │ └── static/ │ ├── login.html │ ├── chat.html │ └── script.js ├── chatbot/ # Core logic: DB, LLM, sessions │ ├── db.py │ ├── llm.py │ ├── session.py │ └── ... ├── .env # 🔐 MySQL credentials (NOT committed) ├── .gitignore ├── main.py # CLI version (optional) ├── requirements.txt └── README.md ``` </pre>
 
 
 ## 🛠️ How to Run This Project Locally
