@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-community
+langchain-ollama
+sqlalchemy
+pymysql
+python-dotenv
+bcrypt

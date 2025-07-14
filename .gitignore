@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Env config
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+.qodo/
+
+# Temporary files
+chat_history.json
