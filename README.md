@@ -29,13 +29,6 @@ This is an AI-powered chatbot web app inspired by ChatGPT. It allows users to re
 ---
 
 ## 📁 Project Structure
-
-The issue might be due to how the tree structure is being rendered in your repository viewer (e.g., GitHub, GitLab). The horizontal layout in the image suggests that the markdown or tool you're using isn't interpreting the structure as a vertical tree. To ensure a vertical layout, you need to use proper markdown syntax for a directory tree. Here's how to fix it:
-
-Update your `README.md` with the following precise markdown tree structure:
-
-```
-Project Structure
 ```
 ├── CHATBOT_UI/
 │   ├── api/
