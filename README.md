@@ -30,6 +30,13 @@ This is an AI-powered chatbot web app inspired by ChatGPT. It allows users to re
 
 ## 📁 Project Structure
 
+The issue might be due to how the tree structure is being rendered in your repository viewer (e.g., GitHub, GitLab). The horizontal layout in the image suggests that the markdown or tool you're using isn't interpreting the structure as a vertical tree. To ensure a vertical layout, you need to use proper markdown syntax for a directory tree. Here's how to fix it:
+
+Update your `README.md` with the following precise markdown tree structure:
+
+```
+Project Structure
+```
 ├── CHATBOT_UI/
 │   ├── api/
 │   │   ├── app.py
@@ -42,11 +49,28 @@ This is an AI-powered chatbot web app inspired by ChatGPT. It allows users to re
 │   │   ├── llm.py
 │   │   ├── session.py
 │   │   └── ...
-├── .env                    # 🔐 MySQL credentials (NOT committed)
+├── .env           # 🔐 MySQL credentials (NOT committed)
 ├── .gitignore
-├── main.py                 # CLI version (optional)
+├── main.py        # CLI version (optional)
 ├── requirements.txt
 └── README.md
+```
+
+### Steps to Apply:
+1. Replace the existing content in `README.md` with the above code block.
+2. Commit and push the changes:
+   ```
+   git add README.md
+   git commit -m "Fix project structure to display vertically"
+   git push
+   ```
+
+### Notes:
+- The triple backticks (```) create a code block, which helps preserve the indentation and display the tree vertically.
+- Ensure there are no extra spaces or tabs that might misalign the structure.
+- Some Git hosting platforms (like GitHub) render markdown trees correctly if the indentation is consistent (using spaces, typically 2 or 4 per level).
+
+If it still doesn't display vertically, it could be a rendering issue with your specific viewer. Let me know, and I can suggest alternative approaches!
 
 ## 🛠️ How to Run This Project Locally
 
